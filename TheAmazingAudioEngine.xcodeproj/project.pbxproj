@@ -284,7 +284,7 @@
 		4CE5F4D11CD3169C00322F03 /* AEAudioThreadEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5F4CD1CD3169C00322F03 /* AEAudioThreadEndpoint.m */; };
 		4CE5F4D21CD3169C00322F03 /* AEAudioThreadEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5F4CD1CD3169C00322F03 /* AEAudioThreadEndpoint.m */; };
 		4CE5F4D31CD3169C00322F03 /* AEAudioThreadEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5F4CD1CD3169C00322F03 /* AEAudioThreadEndpoint.m */; };
-		D606C67F1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D606C67F1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D606C6831DAEACA500E34158 /* AEArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB2F2D51D49ABC6008F745F /* AEArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D606C6841DAEACA500E34158 /* AEBufferStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB2F2D71D49ABC6008F745F /* AEBufferStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D606C6851DAEACA500E34158 /* AEManagedValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB2F2D91D49ABC6008F745F /* AEManagedValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -521,8 +521,8 @@
 		4CE5F4CA1CD3135800322F03 /* AECrossThreadMessagingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AECrossThreadMessagingTests.m; sourceTree = "<group>"; };
 		4CE5F4CC1CD3169C00322F03 /* AEAudioThreadEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioThreadEndpoint.h; sourceTree = "<group>"; };
 		4CE5F4CD1CD3169C00322F03 /* AEAudioThreadEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEAudioThreadEndpoint.m; sourceTree = "<group>"; };
-		D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAmazingAudioEngineiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheAmazingAudioEngine iOS.h"; sourceTree = "<group>"; };
+		D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TheAmazingAudioEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheAmazingAudioEngineiOS.h; sourceTree = "<group>"; };
 		D606C67E1DAEAB8D00E34158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -599,7 +599,7 @@
 			children = (
 				4CDCAC9A1CA25A29008AAEF1 /* TheAmazingAudioEngine */,
 				4CDCACA91CA25A6E008AAEF1 /* Tests */,
-				D606C67C1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS */,
+				D606C67C1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS */,
 				4CDCAC991CA25A29008AAEF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -611,7 +611,7 @@
 				4CDCACA81CA25A6E008AAEF1 /* Tests.xctest */,
 				4C9F0F741CB265F90032903E /* libTheAmazingAudioEngine OS X.a */,
 				4C9F0FBC1CB269C30032903E /* libTheAmazingAudioEngine tvOS.a */,
-				D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.framework */,
+				D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngine.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -774,13 +774,13 @@
 			path = Outputs;
 			sourceTree = "<group>";
 		};
-		D606C67C1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS */ = {
+		D606C67C1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS */ = {
 			isa = PBXGroup;
 			children = (
-				D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS.h */,
+				D606C67D1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.h */,
 				D606C67E1DAEAB8D00E34158 /* Info.plist */,
 			);
-			path = "TheAmazingAudioEngine iOS";
+			path = TheAmazingAudioEngineiOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -985,7 +985,7 @@
 				D606C6A81DAEACA500E34158 /* AEAudioThreadEndpoint.h in Headers */,
 				D606C6A41DAEACA500E34158 /* AEDSPUtilities.h in Headers */,
 				D606C68C1DAEACA500E34158 /* AEAudioUnitInputModule.h in Headers */,
-				D606C67F1DAEAB8D00E34158 /* TheAmazingAudioEngine iOS.h in Headers */,
+				D606C67F1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1079,7 +1079,7 @@
 			);
 			name = TheAmazingAudioEngineiOS;
 			productName = "TheAmazingAudioEngine iOS";
-			productReference = D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngineiOS.framework */;
+			productReference = D606C67B1DAEAB8D00E34158 /* TheAmazingAudioEngine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1547,12 +1547,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "TheAmazingAudioEngine iOS/Info.plist";
+				INFOPLIST_FILE = TheAmazingAudioEngineiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atastypixel.TheAmazingAudioEngine-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1574,12 +1575,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "TheAmazingAudioEngine iOS/Info.plist";
+				INFOPLIST_FILE = TheAmazingAudioEngineiOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.atastypixel.TheAmazingAudioEngine-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -1644,6 +1646,7 @@
 				D606C6811DAEAB8D00E34158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
